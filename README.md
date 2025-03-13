@@ -1,6 +1,3 @@
-Below is an example README in Markdown that you can use for your GitHub repository. You can modify it to suit your project's specifics:
-
----
 
 # Accurate Diagnosis and Classification of Goldenhar Syndrome Variants Using Photographic Imaging
 
@@ -13,36 +10,8 @@ Goldenhar Syndrome (GS) is a rare congenital condition characterized by diverse 
 - Train deep learning models (EfficientNetB0, ResNet50, and DenseNet121) to classify seven distinct GS variants.
 - Evaluate model performance using accuracy, precision, recall, F1-score, and AUC.
 
-## Repository Structure
 
-```
-├── data/                    # Directory for dataset and annotations
-├── notebooks/               # Jupyter notebooks for exploratory analysis and training
-├── src/                     # Source code for data preprocessing, model training, and evaluation
-│   ├── preprocessing.py     # Image loading, resizing, normalization, and augmentation scripts
-│   ├── models.py            # Model architectures and transfer learning implementations
-│   ├── train.py             # Training pipeline for the models
-│   └── evaluate.py          # Evaluation scripts and performance metrics
-├── results/                 # Directory for saving trained models and graphs
-├── README.md                # This file
-└── requirements.txt         # Python package dependencies
-```
 
-## Requirements
-
-Make sure you have Python 3.7+ installed. Install the required dependencies using pip:
-
-```bash
-pip install -r requirements.txt
-```
-
-**Dependencies include:**
-- TensorFlow / Keras
-- NumPy
-- OpenCV
-- scikit-learn
-- Matplotlib
-- Pandas
 
 ## Dataset
 
